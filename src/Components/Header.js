@@ -9,7 +9,6 @@ const useStyles = makeStyles((theme) => ({
       background: 'linear-gradient(to right, #4D06C1 , #CD02BD)',
     },
     title: {
-        margin: 0,
         paddingTop:'10px',
         paddingBottom:'10px',
         width:'195px',

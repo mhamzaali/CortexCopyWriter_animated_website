@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
 
 const useStyles = makeStyles((theme) => ({
     root: {

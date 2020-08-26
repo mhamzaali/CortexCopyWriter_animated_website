@@ -68,7 +68,7 @@ const Title = () => {
     const classes = useStyles();
 
 
-    const { ref, playState } = useWebAnimations({
+    const { ref } = useWebAnimations({
       keyframes: 
       [{transform: 'translateY(0px)'},{transform: 'translateY(90px)'}],
       timing: {

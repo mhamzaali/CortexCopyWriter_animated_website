@@ -3,9 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
-import useWebAnimations from "@wellyshen/use-web-animations";
-import { border } from '@material-ui/system';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -50,7 +47,6 @@ const useStyles = makeStyles((theme) => ({
       width:'250px',
       height:'auto',
       marginTop:'20px',
-      border:'2px solid black',
       border:'4px solid white',
       borderRadius:'50%'
     },
